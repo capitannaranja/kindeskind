@@ -1,0 +1,15 @@
+sitemap demo label="Main Menu"
+{
+	Frame {
+		// Bulb1
+		Switch item=		Light1_Toggle
+		Slider item=		Light1_Dimmer
+		Colorpicker item=	Light1_Color
+		Slider item=		Light1_ColorTemp
+
+		// Bulb2
+//		Switch item=		Light2_Toggle
+//		Slider item=		Light2_Dimmer
+//		Slider item=		Light2_ColorTemp
+	}
+}

@@ -1,0 +1,7 @@
+kindeskind-msg-notification:
+    restart: always
+    build: .
+    container_name: kindeskind-msg-notification
+    volumes:
+        - ./docker_volumes/telegram-cli/:/root/.telegram-cli
+        - ./docker_volumes/personalization:/usr/src/app/personalization

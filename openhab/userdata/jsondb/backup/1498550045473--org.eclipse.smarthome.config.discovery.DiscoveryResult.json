@@ -1,0 +1,211 @@
+{
+  "network:device:192_168_178_52": {
+    "class": "org.eclipse.smarthome.config.discovery.internal.DiscoveryResultImpl",
+    "value": {
+      "thingUID": {
+        "segments": [
+          "network",
+          "device",
+          "192_168_178_52"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "network",
+          "device"
+        ]
+      },
+      "properties": {
+        "hostname": "192.168.178.52"
+      },
+      "flag": "NEW",
+      "label": "Network Device (192.168.178.52)",
+      "timestamp": 1.492946861683E12,
+      "timeToLive": -1.0
+    }
+  },
+  "network:device:192_168_178_1": {
+    "class": "org.eclipse.smarthome.config.discovery.internal.DiscoveryResultImpl",
+    "value": {
+      "thingUID": {
+        "segments": [
+          "network",
+          "device",
+          "192_168_178_1"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "network",
+          "device"
+        ]
+      },
+      "properties": {
+        "hostname": "192.168.178.1"
+      },
+      "flag": "NEW",
+      "label": "Network Device (192.168.178.1)",
+      "timestamp": 1.493029011089E12,
+      "timeToLive": -1.0
+    }
+  },
+  "hue:0200:0017881c3123:6": {
+    "class": "org.eclipse.smarthome.config.discovery.internal.DiscoveryResultImpl",
+    "value": {
+      "bridgeUID": {
+        "segments": [
+          "hue",
+          "bridge",
+          "0017881c3123"
+        ]
+      },
+      "thingUID": {
+        "segments": [
+          "hue",
+          "0200",
+          "0017881c3123",
+          "6"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "hue",
+          "0200"
+        ]
+      },
+      "properties": {
+        "modelId": "LST001",
+        "lightId": "6"
+      },
+      "flag": "NEW",
+      "label": "LED",
+      "timestamp": 1498386353554,
+      "timeToLive": -1
+    }
+  },
+  "network:device:192_168_178_99": {
+    "class": "org.eclipse.smarthome.config.discovery.internal.DiscoveryResultImpl",
+    "value": {
+      "thingUID": {
+        "segments": [
+          "network",
+          "device",
+          "192_168_178_99"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "network",
+          "device"
+        ]
+      },
+      "properties": {
+        "hostname": "192.168.178.99"
+      },
+      "flag": "NEW",
+      "label": "Network Device (192.168.178.99)",
+      "timestamp": 1.493029013865E12,
+      "timeToLive": -1.0
+    }
+  },
+  "network:device:192_168_178_46": {
+    "class": "org.eclipse.smarthome.config.discovery.internal.DiscoveryResultImpl",
+    "value": {
+      "thingUID": {
+        "segments": [
+          "network",
+          "device",
+          "192_168_178_46"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "network",
+          "device"
+        ]
+      },
+      "properties": {
+        "hostname": "192.168.178.46"
+      },
+      "flag": "NEW",
+      "label": "Network Device (192.168.178.46)",
+      "timestamp": 1.492947320353E12,
+      "timeToLive": -1.0
+    }
+  },
+  "network:device:192_168_178_35": {
+    "class": "org.eclipse.smarthome.config.discovery.internal.DiscoveryResultImpl",
+    "value": {
+      "thingUID": {
+        "segments": [
+          "network",
+          "device",
+          "192_168_178_35"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "network",
+          "device"
+        ]
+      },
+      "properties": {
+        "hostname": "192.168.178.35"
+      },
+      "flag": "NEW",
+      "label": "Network Device (192.168.178.35)",
+      "timestamp": 1.493029011113E12,
+      "timeToLive": -1.0
+    }
+  },
+  "network:device:192_168_178_108": {
+    "class": "org.eclipse.smarthome.config.discovery.internal.DiscoveryResultImpl",
+    "value": {
+      "thingUID": {
+        "segments": [
+          "network",
+          "device",
+          "192_168_178_108"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "network",
+          "device"
+        ]
+      },
+      "properties": {
+        "hostname": "192.168.178.108"
+      },
+      "flag": "NEW",
+      "label": "Network Device (192.168.178.108)",
+      "timestamp": 1.493029014001E12,
+      "timeToLive": -1.0
+    }
+  },
+  "network:device:192_168_56_1": {
+    "class": "org.eclipse.smarthome.config.discovery.internal.DiscoveryResultImpl",
+    "value": {
+      "thingUID": {
+        "segments": [
+          "network",
+          "device",
+          "192_168_56_1"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "network",
+          "device"
+        ]
+      },
+      "properties": {
+        "hostname": "192.168.56.1"
+      },
+      "flag": "NEW",
+      "label": "Network Device (192.168.56.1)",
+      "timestamp": 1.493029019886E12,
+      "timeToLive": -1.0
+    }
+  }
+}

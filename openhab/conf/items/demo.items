@@ -1,0 +1,12 @@
+// Bulb1
+Switch	Light1_Toggle		{ channel="hue:0210:0017881c3123:2:alert" }
+Dimmer  Light1_Dimmer		{ channel="hue:0210:0017881c3123:bulb1:color" }
+Color 	Light1_Color		{ channel="hue:0210:0017881c3123:2:color" }
+Dimmer 	Light1_ColorTemp	{ channel="hue:0210:0017881c3123:bulb1:color_temperature" }
+
+// Bulb2
+//Switch	Light2_Toggle		{channel="hue:0220:1:bulb2:brightness"}				
+//Dimmer	Light2_Dimm		{channel="hue:0220:1:bulb2:brightness"}
+//Dimmer	Light2_ColorTemp	{channel="hue:0220:1:bulb2:color_temperature"} 
+
+//ID: hue:0210:0017881c3123:2:color

@@ -1,0 +1,60 @@
+{
+  "hue_0210_0017881c3123_2_color -\u003e hue:0210:0017881c3123:2:color": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "hue",
+          "0210",
+          "0017881c3123",
+          "2",
+          "color"
+        ]
+      },
+      "itemName": "hue_0210_0017881c3123_2_color"
+    }
+  },
+  "hue_0210_0017881c3123_2_color_temperature -\u003e hue:0210:0017881c3123:2:color_temperature": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "hue",
+          "0210",
+          "0017881c3123",
+          "2",
+          "color_temperature"
+        ]
+      },
+      "itemName": "hue_0210_0017881c3123_2_color_temperature"
+    }
+  },
+  "network_device_192_168_178_106_time -\u003e network:device:192_168_178_106:time": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "network",
+          "device",
+          "192_168_178_106",
+          "time"
+        ]
+      },
+      "itemName": "network_device_192_168_178_106_time"
+    }
+  },
+  "network_device_192_168_178_106_online -\u003e network:device:192_168_178_106:online": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "network",
+          "device",
+          "192_168_178_106",
+          "online"
+        ]
+      },
+      "itemName": "network_device_192_168_178_106_online"
+    }
+  }
+}

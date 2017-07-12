@@ -1,0 +1,283 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.NoIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.YesIntent",
+      "samples": []
+    },
+    {
+      "name": "GetIntent",
+      "samples": [
+        "rufe Nachrichten von Kindeskind ab",
+        "rufe Nachrichten ab",
+        "rufe Nachrichten",
+        "hole Nachrichten ab",
+        "hole Nachrichten",
+        "empfange Nachricht mit Kindeskind",
+        "empfange Nachricht"
+      ],
+      "slots": []
+    },
+    {
+      "name": "GetMessageIntent",
+      "samples": [],
+      "slots": []
+    },
+    {
+      "name": "RawText",
+      "samples": [
+        "{messageText}"
+      ],
+      "slots": [
+        {
+          "name": "messageText",
+          "type": "CATCH_ALL",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "RepeatIntent",
+      "samples": [],
+      "slots": []
+    },
+    {
+      "name": "SendIntent",
+      "samples": [
+        "sende Nachricht mit Kindeskind",
+        "sende Nachricht",
+        "sende Nachricht an Marco mit Kindeskind",
+        "sende nachricht an Marco"
+      ],
+      "slots": []
+    },
+    {
+      "name": "StartGetIntent",
+      "samples": [
+        "empfangen",
+        "Nachricht empfangen",
+        "Nachrichten empfangen",
+        "empfange Nachricht",
+        "habe ich neue Nachrichten",
+        "lese Nachrichten vor",
+        "lese Nachricht vor"
+      ],
+      "slots": []
+    },
+    {
+      "name": "StartSendIntent",
+      "samples": [
+        "senden",
+        "sende",
+        "sende nachricht",
+        "nachricht senden",
+        "sende nachricht an Marco"
+      ],
+      "slots": []
+    }
+  ],
+  "types": [
+    {
+      "name": "CATCH_ALL",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "der kunst wollten gericht",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "japan unserer euro durch februar",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "gewalt pro gehen könnten fünf unternehmen",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "schüler angebot für hallo",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "spricht hat",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "politiker ihres gesellschaft gleichzeitig kopf",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "öffentlichkeit dabei anderen eines um erklärt rund",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "das chance wirtschaft geld oder einzelnen saison neuer",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "von weiter weg rolle er sommer",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "nicht überhaupt musik dafür hat aktien nachricht",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "schließlich dem prozent",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "dieser jahren bis präsident",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "polizei derzeit uhr machen juni",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "schlafen dort zum rechnen zusammenkunft bevölkerung laut die",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "sprechen feld will am politik wenn umso zwölf",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "geplanten vom jahr ab alte bayern position",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "heute geht",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "stehen krank",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "bisher allerdings arbeit",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "nicht bereits kann",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "ich du möchte test herr",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "kompliziert relativ",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "alex lukas habe haare zimmermann",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "wetter essen schlafe allerdings nachbar und",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "gut schlecht enkel tochter hund",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "kind sohn arzt oft sessel immer ab",
+            "synonyms": []
+          }
+        }
+      ]
+    }
+  ]
+}

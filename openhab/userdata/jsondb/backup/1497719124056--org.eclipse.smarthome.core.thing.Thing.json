@@ -1,0 +1,255 @@
+{
+  "hue:0210:0017881c3123:2": {
+    "class": "org.eclipse.smarthome.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "Hue",
+      "bridgeUID": {
+        "segments": [
+          "hue",
+          "bridge",
+          "0017881c3123"
+        ]
+      },
+      "channels": [
+        {
+          "acceptedItemType": "Color",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "hue",
+              "0210",
+              "0017881c3123",
+              "2",
+              "color"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "hue",
+              "color"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": [
+            "Lighting"
+          ]
+        },
+        {
+          "acceptedItemType": "Dimmer",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "hue",
+              "0210",
+              "0017881c3123",
+              "2",
+              "color_temperature"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "hue",
+              "color_temperature"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "hue",
+              "0210",
+              "0017881c3123",
+              "2",
+              "alert"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "hue",
+              "alert"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "hue",
+              "0210",
+              "0017881c3123",
+              "2",
+              "effect"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "hue",
+              "effect"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "lightId": "2"
+        }
+      },
+      "properties": {
+        "modelId": "LCT001",
+        "vendor": "Philips",
+        "firmwareVersion": "5.50.1.19085"
+      },
+      "uid": {
+        "segments": [
+          "hue",
+          "0210",
+          "0017881c3123",
+          "2"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "hue",
+          "0210"
+        ]
+      }
+    }
+  },
+  "network:device:192_168_178_106": {
+    "class": "org.eclipse.smarthome.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "Christofs Smartphone",
+      "channels": [
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "network",
+              "device",
+              "192_168_178_106",
+              "online"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "network",
+              "online"
+            ]
+          },
+          "label": "Online",
+          "description": "Gibt an ob das Gerät aktuell online oder offline ist.",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "network",
+              "device",
+              "192_168_178_106",
+              "time"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "network",
+              "time"
+            ]
+          },
+          "label": "Zeit",
+          "description": "Gibt an wie lange ein Ping an das Gerät dauert.",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "hostname": "192.168.178.106",
+          "refresh_interval": 30000.0,
+          "port": 0.0,
+          "dhcplisten": false,
+          "retry": 1.0,
+          "timeout": 5000.0,
+          "use_system_ping": false
+        }
+      },
+      "properties": {},
+      "uid": {
+        "segments": [
+          "network",
+          "device",
+          "192_168_178_106"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "network",
+          "device"
+        ]
+      }
+    }
+  },
+  "hue:bridge:0017881c3123": {
+    "class": "org.eclipse.smarthome.core.thing.internal.BridgeImpl",
+    "value": {
+      "label": "Philips hue (192.168.178.73)",
+      "channels": [],
+      "configuration": {
+        "properties": {
+          "ipAddress": "192.168.178.73",
+          "pollingInterval": 10.0,
+          "serialNumber": "0017881c3123",
+          "userName": "paWWUwDBQbYwdCIUUEB2XdNmJxiuECTbpDGjeS3I"
+        }
+      },
+      "properties": {
+        "serialNumber": "00:17:88:1c:31:23",
+        "vendor": "Philips",
+        "firmwareVersion": "01036659"
+      },
+      "uid": {
+        "segments": [
+          "hue",
+          "bridge",
+          "0017881c3123"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "hue",
+          "bridge"
+        ]
+      }
+    }
+  }
+}
