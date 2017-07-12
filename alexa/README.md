@@ -16,6 +16,8 @@
 - Copy content of `InteractionModel.json` into your Amazon Skill InteractionModel
 - Set Service Endpoint Type to `AWS Lambda ARN` and insert your lambda function's ARN
 
+For further guides and tutorials for setting up Lambda and the Alexa Skill visit the [Amazon Developer Alexa Blog](https://developer.amazon.com/de/blogs/post/txdjws16kupvko/new-alexa-skills-kit-template:-build-a-trivia-skill-in-under-an-hour)
+
 ### Run Alexa Skill on Alexa-enabled Device
 - Install *Alexa Voice Service* on a Raspberry Pi according to this [installation guide](https://github.com/alexa/alexa-avs-sample-app/wiki/Raspberry-Pi)
 - Run the companion service
